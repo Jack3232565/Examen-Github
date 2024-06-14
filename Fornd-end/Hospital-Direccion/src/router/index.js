@@ -11,6 +11,7 @@ import Estadisticas from '../components/DatosEstadisticos.vue'
 import EstructuraOrg from '../components/EstrucuturaOH.vue'
 import AprobacionSM from '../components/AprobacionSM.vue'
 import Bitacora from '../components/Bitacora.vue'
+import PiePagina from '../components/PiePagina.vue'
 
 
 const router = createRouter({
@@ -30,6 +31,12 @@ const router = createRouter({
       path: '/recupera',
       name: 'recupera',
       component: RecuperaPass
+    },
+    ,
+    {
+      path: '/footer',
+      name: 'footer',
+      component: PiePagina
     },
     {
       path: '/dashboart',
