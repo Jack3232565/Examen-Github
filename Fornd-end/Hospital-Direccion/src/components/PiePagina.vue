@@ -1,7 +1,6 @@
 <template>
     
-
-<footer class="bg-black rounded-lg shadow m-4 dark:bg-gray-800">
+<footer class="bg-black rounded-lg shadow m-4 dark:bg-slate-800">
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <span class="text-sm text-gray-500 sm:text-center white:text-gray-400 text-blout">© 2024 <a href="https://flowbite.com/" class="hover:underline">PrivilegeCare™</a>. Hospital de Especialidades.
     </span>
